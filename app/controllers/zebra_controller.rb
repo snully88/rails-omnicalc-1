@@ -1,4 +1,5 @@
 class ZebraController < ApplicationController
+  
   def rules
     render({ :template => "game_templates/rules"})
   end
@@ -62,4 +63,5 @@ class ZebraController < ApplicationController
     end
   render({ :template => "game_templates/payment_results"})
   end
+  
 end
